@@ -1,0 +1,222 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    background-image:url(./images/IN-en-20240827-TRIFECTA-perspective_WEB_c292a608-cdc6-4686-8dc8-405bfcf753af_large.jpg) ;
+    height: 75vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:max(1200px,100vw);
+
+}
+@media screen and (max-width:860px) {
+    .main{
+        height:125px;
+    }
+    
+    
+}
+body{
+    background-color: black;
+}
+.main .box{
+    height: 75vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    top: 0;
+   
+}
+nav{
+    max-width: 70vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    max-width: 80;
+    justify-content: space-between;
+    height: 62px;
+
+}
+nav img{
+    width: 130px;
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 23px;
+    padding: 23px;
+    height:calc(100%-62px)
+}
+.hero :nth-child(1){
+    font-weight: 900;
+    font-size: 49px;
+    
+}
+.hero :nth-child(2){
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+
+}
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+body > div > div.hero > div > input[type=text]{
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    padding: 7px 101px 8px 14px;
+}
+
+
+.btn{
+    padding: 2px;
+    font-weight: 400;
+    background-color: rgba(177, 170, 170, 0.089);
+    color: white;
+    position: relative;
+    z-index: 10;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btn-red{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 2px 14px 3px 4px;
+}
+.btn-red-sm{
+    background-color: rgb(229, 9, 20);
+    color:white;
+
+}
+.main input{
+    padding: 9px 35px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(246,238,238,0.5);
+    color: white;
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 50vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    gap: 150px;
+   
+
+}
+
+
+.secimg img{
+    width: 110px;
+    height: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+        
+}
+.text :nth-child(1){
+    font-size: 24px;
+    font-weight: 500;
+    
+
+}
+.text :nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-around;
+
+}
+.seperation{
+    background-color: grey;
+    height: 0.5px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+}
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+    color: rgb(229, 9, 20) ;
+}
+.faqbox{
+    transition: all ease-out 0.5s;
+    display: flex;
+    background-color: grey;
+    padding: 8px;
+    max-width: 517px;
+    margin: 25px auto;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.faqbox:hover{
+  
+    background-color: rgb(229, 9, 20);
+
+}
+.faqbox svg{
+    color: white;
+}
+footer{
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 34px;
+    
+}
+footer .questions{
+  
+    padding: 30px 0px;
+   
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+} 
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    
+    
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.omg {
+    padding: 12px 14px 13px 14px;
+    justify-content: center;
+    align-items: center;
+}
